@@ -33,9 +33,9 @@ const compassChoice = readline.question("Do you have Compass (yes/no)?");
 const boatChoice = readline.question("Do you have Boat and paddle (yes/no)?");
 
 const hasTorch = true;
-const hasMap = mapChoice.toLowerCase() == "yes" || mapChoice.toLocaleUpperCase() == "yeah"; // used || operator
-const hasCompass = compassChoice.toLowerCase() == "yes" || compassChoice.toLocaleUpperCase() == "yeah";
-const hasBoat = boatChoice.toLowerCase() == "yes" || boatChoice.toLocaleUpperCase() == "yeah";
+const hasMap = mapChoice.toLowerCase() == "yes" || mapChoice.toLowerCase() == "yeah"; // used || operator
+const hasCompass = compassChoice.toLowerCase() == "yes" || compassChoice.toLowerCase() == "yeah";
+const hasBoat = boatChoice.toLowerCase() == "yes" || boatChoice.toLowerCase() == "yeah";
 const hasPaddle = hasBoat;
 
 let reachedDestination = false;
